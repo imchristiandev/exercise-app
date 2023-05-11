@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const Timer = ({ time, trainingSeconds, restingSeconds, isTraining, trainingDuration, restingDuration }:any) => {
 
     const percentage = isTraining ? (100 / trainingDuration)*trainingSeconds : (100 / restingDuration)*restingSeconds
