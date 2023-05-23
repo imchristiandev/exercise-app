@@ -1,8 +1,8 @@
-import { ExcerciseApp } from "./components/pages/ExcerciseApp"
+import { ExerciseApp } from "./components/pages/ExerciseApp"
 
 function RedPillApp() {
   return (
-    <ExcerciseApp />
+    <ExerciseApp />
   )
 }
 

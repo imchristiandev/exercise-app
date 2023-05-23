@@ -1,0 +1,21 @@
+.clock {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock__timer {
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem auto;
+    border-radius: 50%;
+    background: conic-gradient(lightseagreen 0, lightgrey 0);
+    -webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 0.5rem),#fff calc(100% - 0.5rem + 1px));
+            mask:radial-gradient(farthest-side,transparent calc(100% - 0.5rem),#fff calc(100% - 0.5rem + 1px));
+}
+
+.clock__hour {
+    position: absolute;
+    font-size: 2rem;
+}
